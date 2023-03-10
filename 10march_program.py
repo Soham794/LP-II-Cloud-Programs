@@ -1,1 +1,1 @@
-print("some cloud computing stuff")
+print("dummy cloud program")
