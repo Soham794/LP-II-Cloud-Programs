@@ -12,6 +12,7 @@ int main(){
   int target;
   
   cout << "\nEnter the target element: ";
+  cin >> target;
   int start = 0, end = n-1, mid, ans = -1;
   
   while(start <= end){
