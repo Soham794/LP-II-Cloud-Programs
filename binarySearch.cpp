@@ -7,9 +7,10 @@ int main(){
   cout << "\nEnter the size of the array: ";
   int n; cin >> n;
   int arr[n];
-  cout << "\nEnter the array elements: ";
+  cout << "\nEnter the array elements in ascending order: ";
   for(int i=0;i<n;i++) cin >> arr[i];
   int target;
+  
   cout << "\nEnter the target element: ";
   int start = 0, end = n-1, mid, ans = -1;
   
