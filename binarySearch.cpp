@@ -25,7 +25,10 @@ int main(){
     else start = mid + 1;
   }
   
-  cout << ans << "\n";
+  if(ans!=-1){
+    cout << "\nTarget element is present at "<<ans<<" index in array";
+  }
+  else cout << "\nTarget element is not present in the array";
   
 return 0;
 }
