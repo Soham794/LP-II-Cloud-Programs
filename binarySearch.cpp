@@ -26,9 +26,9 @@ int main(){
   }
   
   if(ans!=-1){
-    cout << "\nTarget element is present at "<<ans<<" index in array";
+    cout << "\nTarget element is present at "<<ans<<" index in array\n";
   }
-  else cout << "\nTarget element is not present in the array";
+  else cout << "\nTarget element is not present in the array\n";
   
 return 0;
 }
